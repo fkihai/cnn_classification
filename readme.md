@@ -8,15 +8,15 @@
 
 # structure file
 
--- Dataset
-    -- class 1
-    -- class 2
-    -- class 3
--- cnn.py
--- split_dataset.py
--- predict.py
--- model.h5
--- env
+cnn_classification/
+│
+├── cnn.py             # train script
+├── split_dataset.py   # split dataset to data train, val, test
+├── README.md          # Project documentation
+└── dataset/
+   ├── class 1
+   └── class 2        
+
 
 # how to running
 
